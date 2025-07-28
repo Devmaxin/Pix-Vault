@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Sign up</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<main>
+<div class="container">
+<div class="images">
+<img alt="" src="/images/image px.png"/>
+</div>
+<div class="text">
+<a href="/index.html"> <img alt="" src="/images/pix vault logo.png"/>
+</a>
+<h3>Create Account</h3>
+<div class="options">
+<a href=""> <span class="google"> Continue with google</span> </a>
+<a href="/Free access/index.html"> <span class="free">Free access</span> </a>
+</div> <br/>
+<div class="marquee">
+<marquee behavior="scroll" direction="" scrollamount="5"> Note that this function is not yet active</marquee>
+</div>
+<form action="signup.php" method="POST">
+<label for="username">Username:</label> <br/>
+<input id="username" name="full_name" placeholder="Input your Username" required="" type="text"/> <br/>
+<label for="email">Email:</label> <br/>
+<input id="email" name="email" placeholder="Input your email here" required="" type="email"/> <br/>
+<label for="password">Password:</label> <br/>
+<input id="password" name="password" placeholder="input your Password here" required="" type="password"/> <br/>
+<label for="Repeat-Password">Confirm Password:</label> <br/>
+<input id="confirmPassword" name="password" placeholder="Repeat password" required="" type="password"/> <br/>
+<p id="errorMessage"></p>
+<div><button type="submit"> SignUp</button></div>
+<h5>Already have an account? <a href="/Login/index.html">Login</a></h5>
+</form>
+</div>
+</div>
+</main>
+<script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+  
+      let password = document.getElementById("password").value;
+      let confirmPassword = document.getElementById("confirmPassword").value;
+      let errorMessage = document.getElementById("errorMessage");
+  
+      if (password !== confirmPassword) {
+        errorMessage.textContent = "Passwords do not match!";
+      } else {
+        errorMessage.textContent = "";
+        // alert("Form submitted successfully!");
+        this.submit(); // Submit the form if passwords match
+      }
+    });
+  </script>
+</body>
+</html>

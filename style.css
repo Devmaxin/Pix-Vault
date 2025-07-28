@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav{
+    /* background-color: rgba(0, 0, 0, 0.938); */
+    /* overflow: auto; */
+    height: 100px;
+}
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+nav .logo{
+    float: left;
+    padding-top: 20px;
+}
+
+nav span{
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s ease-in;
+}
+
+.links .active {
+    color: blue;
+}
+
+nav .links{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+nav .links a:hover{
+    color: blue;
+}
+
+.container-sm-device{
+    display: none;
+}
+
+
+.button{
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    border: 2px solid blue;
+    transition: all 0.4s ease-in;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.container img{
+    height: 35px;
+}
+
+span .button:hover{
+    background-color: blue;
+    color: white;
+    /* box-shadow: 0  15px #007bff,  */
+    
+}
+
+span button a{
+    color: black;
+}
+
+.button2{
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    border: 2px solid red;
+    transition: all 0.4s ease-in;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button2:hover{
+    background-color: red;
+    color: white;
+}
+
+.container span button a{
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+main .text{
+    margin-top: 6em;
+    font-size: 2em;
+    line-height: 1.7em;
+    font-family: tahoma;
+}
+
+main button{
+    padding: 10px;
+    font-family: tahoma;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #22223b;
+    color: white;
+    width: 65px;
+    height: 40px;
+    border: none;
+    transition: all 0.4s ease-in;
+}
+
+main button:hover{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #4a4e69;
+    color: white;
+    width: 70px;
+    height: 45px;
+    border: none;
+}
+
+main .premium{
+    padding: 10px;
+    font-family: tahoma;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #9a8c98;
+    color: white;
+    width: 85px;
+    height: 40px;
+    border: none;
+    transition: all 0.4s ease-in;
+}
+
+main .premium:hover{
+    padding: 10px;
+    font-family: tahoma;
+    font-weight: 700;
+    border-radius: 12px;
+    background-color: #b2967d;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border: none;
+}
+
+main .pic img{
+    height: 500px;
+    margin-top: 60px;
+}
+
+/* main .pic:hover{
+    height: 510px;
+    padding-left: 8px;
+} */
+
+.marquee{
+    width: 300px;
+    height: 35px;
+}
+
+marquee{
+    font-size: 15px;
+    
+}
+
+.mobile-main{
+    display: none;
+}
+
+    /* For screens under 720px */
+
+@media (max-width:900px) {
+    
+    .container{
+        display: none;
+    }
+
+    .container-sm-device{
+        display: block;
+    }
+
+    .container-sm-device .logo {
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .container-sm-device .links{
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    main{
+        display: none;
+    }
+
+   .mobile-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    justify-content: center;
+   }
+
+   .mobile-main .pic img{
+    height: 350px;
+    margin-top: 30px;
+   }
+
+   .mobile-main .text{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+    font-family: tahoma;
+   }
+
+   .mobile-main .text button{
+    margin-top: 10px;
+   }
+
+   .marquee{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    marquee{
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    }
+}
+

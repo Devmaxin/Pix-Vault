@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+    font-family: tahoma;
+}
+
+body{
+    height: 100vh;
+}
+
+nav{
+    /* background-color: black; */
+    height: 50px;
+}
+
+nav .logo{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+
+nav .logo img{
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: blue;
+    font-family: tahoma;
+}
+
+a:hover{
+    color: rgb(0, 0, 156);
+}
+
+nav .links{
+    margin-left: auto;
+    width: 300px;
+    padding-top: 15px;
+}
+
+
+/* header{
+
+} */
+
+header h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+header div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header div .hq{
+    color: red;
+    cursor: pointer;
+}
+
+header div .Cl{
+    color: rgb(5, 12, 146);
+    cursor: pointer;
+}
+
+header div .St{
+    color: rgb(40, 34, 34);
+    cursor: pointer;
+}
+
+/* main{
+
+} */
+
+main .intro{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+main .why{
+    margin-top: 30px;
+}
+
+main .why h3{
+    margin-left: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+main .why div{
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+main .why div p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+main .Our-mission{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+main .Our-mission h3{
+    font-size: 20px;
+    color: blue;
+}
+
+main .Our-mission .mission1{
+    font-size: 20px;
+    text-align: justify;
+}
+
+main .Our-mission .mission2{
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .pix1 img{
+    height: 200px;
+}
+
+.footer .text{
+    text-align: center;
+}
+
+.footer .text h2{
+    font-size: 45px;
+    color: blue;
+}
+
+.footer .text .login{
+    color: rgb(45, 41, 41);
+    font-size: 15px;
+}
+
+.footer .text .signup{
+    color: orangered;
+    font-size: 15px;
+}
+
+.footer .text .free{
+    color: rgb(45, 41, 41);
+    font-size: 15px;
+}
+
+.footer .pix2 img{
+    height: 200px;
+}
+
+@media (max-width:550px) {
+    nav .logo img{
+        height: 20px;
+    }
+    
+    a:hover{
+        color: rgb(0, 0, 156);
+    }
+    
+    nav .links{
+        margin-left: auto;
+        width: 300px;
+        padding-top: 15px;
+    }
+}
+

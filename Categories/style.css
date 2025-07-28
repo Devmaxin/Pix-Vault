@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all ease-in-out 0.3s;
+    font-family: tahoma;
+}
+
+body{
+ 
+    background-color: white;
+}
+
+header{
+    background-image: url(/images/PIX\ VAULT\ CATHEGORY\ HEADER.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+   
+}
+
+header img{
+    height: 150px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+   
+}
+
+.container .side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 80px;
+    /* height: 100%; */
+    background-color: transparent;
+    border: 2px black solid;
+    width: 10%;
+}
+
+.container .main_section{
+    /* height: 200vh; */
+    background-color: rgb(255, 254, 254);
+    width: 90%;
+}
+
+.side .home{
+    padding-top: 40px;
+}
+
+.side .home,.main,.about{
+    height: 30px;  
+}
+
+.side button{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: tahoma;
+    color: white;
+    font-weight: bold;
+}
+
+.side button:hover{
+    background-color: rgb(221, 3, 3);
+}
+
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    background-color: rgba(114, 114, 114,0.4);
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+     cursor: pointer;
+}
+
+.button button:hover{
+    background-color: rgba(114, 114, 114, 0.559);
+    padding: 8.2px;
+    border-radius: 10px;
+}
+
+/* Note this h2 here is supposed to work for only top_picks
+, nature, animes etc any other h2 should be changed to either 
+h3 or anyother header tags to not be affected */
+
+h2{
+    font-size: 17px;
+    margin: 10px;
+}
+
+/* Top picks section */
+
+.pic_container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.pic_container div{
+    height: 150px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pic_container div:hover{
+    height: 151px;
+    box-shadow: black -1px -1px 5px 0px;
+    cursor: pointer;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 150px;
+}
+
+.pic_container .top1{
+    background-image: url(/images/desktop\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .top2{
+    background-image: url(/images/hoodie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .top3{
+    background-image: url(/images/itachi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .top4{
+    background-image: url(/images/SPACE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .top5{
+    background-image: url(/images/sad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

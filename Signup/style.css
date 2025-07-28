@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-in;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(244, 245, 252);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+main .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: aqua; */
+    height: 100vh;
+}
+
+.images{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    max-width: 50%;
+}
+
+.images img{
+    height: 500px;
+    /* filter: none;
+    opacity: 1; */
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    width: 50%;
+    /* margin-top: 80px; */
+}
+
+.text img{
+    height: 30px;
+    width: 50px;
+    /* margin-top: 50px; */
+    /* align-self: center; */
+    /* text-align: center; */
+    /* background-color: black; */
+}
+
+.text h3{
+    margin-top: 20px;
+    font-family: verdana;
+}
+
+.text .options{
+    margin-top: 20px;
+}
+
+.text .google{
+    background-color: blue;
+    color: white;
+    font-size: small;
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.2px rgba(99, 98, 98, 0.411) solid;
+}
+
+.text .google:hover{
+    background-color: rgb(7, 7, 168);
+    border-radius: 17px;
+}
+
+.text .free{
+    background-color: rgba(228, 224, 224, 0.637);
+    color: black;
+    font-size: small;
+    border-radius: 15px;
+    padding: 10px;
+    /* width: 255px; */
+    border: 0.2px rgba(99, 98, 98, 0.411) solid;
+}
+
+.text .free:hover{
+    background-color: rgba(201, 197, 197, 0.637);
+    border-radius: 17px;
+    
+}
+
+marquee{
+    color: rgb(112, 0, 0);
+    font-size: small;
+    font-family: tahoma;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    font-family: georgia;
+    margin-left: 5px;
+   
+    
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 270px;
+    border-radius: 20px;
+    border: 0.5px solid rgb(136, 135, 135);
+    text-align: center;
+}
+
+form div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form div button{
+    background-color: red;
+    color: white;
+    align-self: center;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+form div button:hover{
+    background-color: rgb(182, 1, 1);
+    padding: 11px;
+    width: 105px;
+    border-radius: 22px;
+
+}
+
+form h5{
+    font-family: georgia;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form h5 a{
+    color: red;
+    font-style: italic;
+}
+
+/* styling for the js outpuy */
+form #errorMessage{
+    color: rgb(167, 4, 4);
+    font-size: small;
+}
+
+@media (max-width:900px) {
+.images img{
+    height: 300px;
+}
+
+}
+
+@media (max-width:650px) {
+
+
+main .container{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    /* background-color: aqua; */
+    height: 100vh;
+}
+
+.images{
+   display: none;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: blue; */
+    width: 100%;
+    height: 100vh;
+    color: black;
+    font-size: 15px;
+    /* margin-top: 80px; */
+}
+
+
+marquee{
+    color: blue;
+    font-size: 15px;
+    font-family: tahoma;
+}
+
+form h5{
+    color: black;
+    font-size: 13px;
+}
+
+
+
+}
+

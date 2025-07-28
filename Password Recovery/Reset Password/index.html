@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/images/pix vault logo.png" alt="">
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="image">
+                <img src="/images/image px.png" alt="">
+            </div>
+
+            <div class="form">
+                
+                <div class="form-img">
+                    <img src="/images/lock.png" alt="">
+                </div>
+                <h1>RESET PASSWORD</h1>
+                
+                <!-- Marquee animation -->
+                <div class="marquee">
+                    <marquee behavior="scroll" scrollamount="5" direction=""> Note that this function is not yet active</marquee>
+                </div>
+            <form id="myForm" action="/Login/index.html" method="get">
+                <label for="password">PASSWORD:</label> <br>
+                <input type="password" id="password" name="password" placeholder="Enter password" required> <br> <br>
+
+                <!-- Repeat password -->
+                <label for="password">CONFIRM PASSWORD:</label> <br> 
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Repeat password" required> <br>
+                <p id="errorMessage"></p>
+                
+               <div class="btn">
+                <button type="submit">Submit Email</button> <br>
+               </div>
+               <p class="remember-password">Remember Password? <a href="/Login/index.html"> Login </a></p>
+            </form>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- <form id="myForm">
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Repeat password" required>
+        <button type="submit">Submit</button>
+        
+      </form> -->
+      
+      <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+          event.preventDefault(); // Prevent form submission
+      
+          let password = document.getElementById("password").value;
+          let confirmPassword = document.getElementById("confirmPassword").value;
+          let errorMessage = document.getElementById("errorMessage");
+      
+          if (password !== confirmPassword) {
+            errorMessage.textContent = "Passwords do not match!";
+          } else {
+            errorMessage.textContent = "";
+            // alert("Form submitted successfully!");
+            this.submit(); // Submit the form if passwords match
+          }
+        });
+      </script>
+</body>
+</html>
