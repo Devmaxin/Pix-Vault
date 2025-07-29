@@ -18,7 +18,7 @@ header{
     height: 150px;
     display: flex;
     justify-content: center;
-    background-color: brown;
+    /* background-color: brown; */
    
 }
 
@@ -45,7 +45,7 @@ a{
     gap: 80px;
     /* height: 100%; */
     background-color: transparent;
-    border: 2px black solid;
+    border: 1.5px black solid;
     width: 10%;
 }
 
@@ -87,7 +87,7 @@ a{
     border: none;
     padding: 8px;
     border-radius: 10px;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .button button:hover{
@@ -103,6 +103,7 @@ h3 or anyother header tags to not be affected */
 h2{
     font-size: 17px;
     margin: 10px;
+    font-weight: bold;
 }
 
 /* Top picks section */
@@ -163,4 +164,169 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (max-width:850px) {
+
+
+header{
+    height: 130px;
+   
+}
+
+header img{
+    height: 130px;
+    display: none;
+}
+
+.side .home,.main,.about{
+    height: 25px;  
+}
+
+.pic_container{
+    justify-content: center;
+}
+
+.pic_container div{
+    height: 130px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 130px;
+}
+
+.pic_container div:hover{
+    height: 131px;
+    width: 130px;
+}
+}
+
+@media (max-width:700px) {
+
+header{
+    height: 110px;
+}
+
+/* header img{
+    height: 110px;
+} */
+
+.container .side{
+    width:12%;
+}
+
+.container .main_section{
+    width: 88%;
+}
+
+#hidden{
+    display: none;
+}
+}
+
+@media (max-width:500px) {
+
+header{
+    height: 90px;
+}
+
+/* header img{
+    height: 90px;
+} */
+
+.side .home,.main,.about{
+    height: 20px;  
+}
+
+.container .side{
+    width:15%;
+}
+
+.container .main_section{
+    width: 85%;
+}
+
+.pic_container div{
+    height: 90px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 100px;
+}
+
+.pic_container div:hover{
+    height: 91px;
+    width: 100px;
+}
+}
+
+/* mobile view port */
+
+@media (max-width:440px) { 
+  
+h2{
+    font-size: 17px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container .side{
+    gap: 180px;
+}
+
+.pic_container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pic_container div{
+    height: 130px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 200px;
+}
+
+.pic_container div:hover{
+    height: 131px;
+    width: 200px;
+}
+}
+
+@media (max-width:350px) {
+
+header{
+    height: 70px;
+}
+
+/* header img{
+    height: 70px;
+} */
+
+.container .side{
+    border: none;
+
+}
+    
+.pic_container div{
+    height: 120px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 150px;
+}
+
+.pic_container div:hover{
+    height: 121px;
+    width: 150px;
+}
+}
+
+@media (max-width:300px) {
+    
+.pic_container div{
+    height: 100px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 130px;
+}
+
+.pic_container div:hover{
+    height: 101px;
+    width: 130px;
+}
 }
