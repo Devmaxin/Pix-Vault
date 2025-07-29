@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-image: url(/images/PIX\ VAULT\ CATHEGORY\ HEADER.png);
+    background-image: url(../images/PIX\ VAULT\ CATHEGORY\ HEADER.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,35 +132,35 @@ h2{
 }
 
 .pic_container .top1{
-    background-image: url(/images/desktop\ 2.jpg);
+    background-image: url(../images/desktop\ 2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pic_container .top2{
-    background-image: url(/images/hoodie.jpg);
+    background-image: url(../images/hoodie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pic_container .top3{
-    background-image: url(/images/itachi.jpg);
+    background-image: url(../images/itachi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pic_container .top4{
-    background-image: url(/images/SPACE.jpg);
+    background-image: url(../images/SPACE.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pic_container .top5{
-    background-image: url(/images/sad.jpg);
+    background-image: url(../images/sad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
