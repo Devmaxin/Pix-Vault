@@ -4,8 +4,13 @@
     transition: all 0.3s ease-in;
 }
 
+@font-face {
+  font-family: 'Jersey M54'; /* This is the name you'll use in your CSS */
+  src: url('Jersey M54.ttf'); /* This points to the location of your font file */
+}
+
 body{
-    background-image: url(../images/Px\ vault\ free\ page\ bg2.jpg);
+    background-image: url(../images/px\ vault\ free\ page\ bg2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,8 +81,9 @@ main{
 
 main h1{
     color: white;
-    font-size: 70px;
+    font-size: 80px;
     margin-bottom: 10px;
+    font-family: 'Jersey M54';
 }
 
 main h1 span{
@@ -86,8 +92,9 @@ main h1 span{
 
 main p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: tahoma;
 }
 
 main p span{
