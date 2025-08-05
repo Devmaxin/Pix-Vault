@@ -83,7 +83,8 @@ a{
 }
 
 .button button{
-    background-color: rgba(114, 114, 114,0.4);
+    background-color: blue;
+    color: white;
     border: none;
     padding: 8px;
     border-radius: 10px;
@@ -91,7 +92,7 @@ a{
 }
 
 .button button:hover{
-    background-color: rgba(114, 114, 114, 0.559);
+    background-color: rgb(127, 2, 2);
     padding: 8.2px;
     border-radius: 10px;
 }
@@ -102,6 +103,7 @@ h3 or anyother header tags to not be affected */
 
 h2{
     font-size: 17px;
+    color: blue;
     margin: 10px;
     font-weight: bold;
 }
@@ -165,6 +167,197 @@ h2{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Nature */
+.pic_container .nature1{
+    background-image: url(../images/nature2\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .nature2{
+    background-image: url(../images/nature\ pic\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .nature3{
+    background-image: url(../images/nature\ view\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .nature4{
+    background-image: url(../images/breath\ taking\ nature\ view\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .nature5{
+    background-image: url(../images/beautiful\ sunset\ nature\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Anime */
+
+
+
+.pic_container .anime1{
+    background-image: url(../images/anime\ Naruto\ mobile\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .anime2{
+    background-image: url(../images/alucard\ anime\ desktop\ bg\ form\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .anime3{
+    background-image: url(../images/Dragon\ ball\ anime\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .anime4{
+    background-image: url(../images/one\ piece\ logo\ desktop\ gb\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .anime5{
+    background-image: url(../images/dragon-ball-z-\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Tech */
+.pic_container .tech1{
+    background-image: url(../images/tech\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .tech2{
+    background-image: url(../images/tech\ wallpaper\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .tech3{
+    background-image: url(../images/computer\ tech\ mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .tech4{
+    background-image: url(../images/keyboard\ tech\ mobile\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .tech5{
+    background-image: url(../images/abstract\ coding\ wall\ tech\ mobile\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* space */
+
+.pic_container .space1{
+    background-image: url(../images/space1\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .space2{
+    background-image: url(../images/space\ 2\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .space3{
+    background-image: url(../images/space\ 3\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .space4{
+    background-image: url(../images/Cosmic\ space\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .space5{
+    background-image: url(../images/Astronaut\ wallpaper\ for\ iphone\ space\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* All wallpapers */
+
+
+
+.pic_container .all1{
+    background-image: url(../images/Dragon\ ball\ anime\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .all2{
+    background-image: url(../images/space\ 2\ desktop\ bg\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .all3{
+    background-image: url(../images/hoodie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .all4{
+    background-image: url(../images/one\ piece\ logo\ desktop\ gb\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pic_container .all5{
+    background-image: url(../images/keyboard\ tech\ mobile\ from\ pix\ vault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 @media (max-width:850px) {
 
