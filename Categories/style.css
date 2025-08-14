@@ -133,233 +133,15 @@ h2{
     width: 150px;
 }
 
-.pic_container .top1{
-    background-image: url(../images/desktop\ 2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .top2{
-    background-image: url(../images/hoodie.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .top3{
-    background-image: url(../images/itachi.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .top4{
-    background-image: url(../images/SPACE.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .top5{
-    background-image: url(../images/sad.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* Nature */
-.pic_container .nature1{
-    background-image: url(../images/nature2\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .nature2{
-    background-image: url(../images/nature\ pic\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .nature3{
-    background-image: url(../images/nature\ view\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .nature4{
-    background-image: url(../images/breath\ taking\ nature\ view\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .nature5{
-    background-image: url(../images/beautiful\ sunset\ nature\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* Anime */
-
-
-
-.pic_container .anime1{
-    background-image: url(../images/anime\ Naruto\ mobile\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .anime2{
-    background-image: url(../images/alucard\ anime\ desktop\ bg\ form\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .anime3{
-    background-image: url(../images/Dragon\ ball\ anime\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .anime4{
-    background-image: url(../images/one\ piece\ logo\ desktop\ gb\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .anime5{
-    background-image: url(../images/dragon-ball-z-\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 
-/* Tech */
-.pic_container .tech1{
-    background-image: url(../images/tech\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .tech2{
-    background-image: url(../images/tech\ wallpaper\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .tech3{
-    background-image: url(../images/computer\ tech\ mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .tech4{
-    background-image: url(../images/keyboard\ tech\ mobile\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .tech5{
-    background-image: url(../images/abstract\ coding\ wall\ tech\ mobile\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-
-/* space */
-
-.pic_container .space1{
-    background-image: url(../images/space1\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .space2{
-    background-image: url(../images/space\ 2\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .space3{
-    background-image: url(../images/space\ 3\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .space4{
-    background-image: url(../images/Cosmic\ space\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .space5{
-    background-image: url(../images/Astronaut\ wallpaper\ for\ iphone\ space\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* All wallpapers */
-
-
-
-.pic_container .all1{
-    background-image: url(../images/Dragon\ ball\ anime\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .all2{
-    background-image: url(../images/space\ 2\ desktop\ bg\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .all3{
-    background-image: url(../images/hoodie.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .all4{
-    background-image: url(../images/one\ piece\ logo\ desktop\ gb\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.pic_container .all5{
-    background-image: url(../images/keyboard\ tech\ mobile\ from\ pix\ vault.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-@media (max-width:850px) {
+@media (max-width:950px) {
 
 
 header{
@@ -381,15 +163,23 @@ header img{
 }
 
 .pic_container div{
-    height: 130px;
+    height: 100px;
     background-color: rgba(114, 114, 114,0.4);
-    width: 130px;
+    width: 100px;
 }
 
 .pic_container div:hover{
-    height: 131px;
-    width: 130px;
+    height: 101px;
+    width: 100px;
 }
+
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 }
 
 @media (max-width:700px) {
@@ -412,6 +202,47 @@ header{
 
 #hidden{
     display: none;
+}
+}
+
+@media (max-width:600px) {
+
+header{
+    height: 90px;
+}
+
+/* header img{
+    height: 90px;
+} */
+
+.side .home,.main,.about{
+    height: 20px;  
+}
+
+.container .side{
+    width:15%;
+}
+
+.container .main_section{
+    width: 85%;
+}
+
+.pic_container div{
+    height: 80px;
+    background-color: rgba(114, 114, 114,0.4);
+    width: 80px;
+}
+
+.pic_container div:hover{
+    height: 81px;
+    width: 80px;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 }
 
@@ -438,14 +269,21 @@ header{
 }
 
 .pic_container div{
-    height: 90px;
+    height: 70px;
     background-color: rgba(114, 114, 114,0.4);
-    width: 100px;
+    width: 70px;
 }
 
 .pic_container div:hover{
-    height: 91px;
-    width: 100px;
+    height: 71px;
+    width: 70px;
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 }
 
@@ -481,6 +319,13 @@ h2{
     height: 131px;
     width: 200px;
 }
+
+.img{
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 }
 
 @media (max-width:350px) {
@@ -508,6 +353,13 @@ header{
     height: 121px;
     width: 150px;
 }
+
+.img{
+    height: 120px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 }
 
 @media (max-width:300px) {
@@ -521,5 +373,12 @@ header{
 .pic_container div:hover{
     height: 101px;
     width: 130px;
+}
+
+.img{
+    height: 100px;
+    width: 130px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 }
