@@ -187,5 +187,33 @@ main .Our-mission .mission2{
         width: 150px;
         padding-top: 15px;
     }
+
+    .footer .pix1 img{
+    height: 100px;
+    }
+
+    .footer .pix2 img{
+    height: 100px;
+    }
+
+    .footer .text h2{
+    font-size: 25px;
+    color: blue;
+    }
+
+    .footer .text .login{
+    color: rgb(45, 41, 41);
+    font-size: 10px;
+    }
+
+    .footer .text .signup{
+    color: orangered;
+    font-size: 10px;
+    }
+
+    .footer .text .free{
+    color: rgb(45, 41, 41);
+    font-size: 10px;
+    }
 }
 
