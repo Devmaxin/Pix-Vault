@@ -52,7 +52,7 @@ nav{
 }
 
 .side button{
-    background-color: red;
+    background-color: blue;
     border: none;
     border-radius: 10px;
     padding: 5px;
@@ -62,7 +62,7 @@ nav{
 }
 
 .side button:hover{
-    background-color: rgb(221, 3, 3);
+    background-color: rgb(1, 12, 119);
 }
 
 .container .mobile_nav{
@@ -266,7 +266,8 @@ nav{
     margin-top: 30px;
     display: flex;
     gap: 30px;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    margin-left: 20px;
 }
 
 .mobile_nav .logo{
@@ -279,7 +280,7 @@ nav{
 }
 
 .mobile_nav button{
-    background-color: red;
+    background-color: blue;
     border-radius: 7px;
     border: none;
     color: white;
@@ -288,19 +289,20 @@ nav{
     font-weight: bold;
 }
 
+.mobile_nav button:hover{
+    background-color: rgb(1, 1, 99);
+}
+
 .container .main{
     width: 100%;
 }
 
-.search-input {
-  padding: 7px 13px;
-  font-size: 14px;
-  width: 100px;
-}
-
-.search-button {
-  padding: 8px 18px;
-  font-size: 14px;
+.info{
+    font-family: tahoma;
+    font-size: 10px;
+    padding: 0px;
+    color: brown;
+    margin-right: auto;
 }
 
 }
@@ -364,6 +366,10 @@ nav{
     font-size: 8px;
 }
 
+.mobile_nav button {
+    padding: 2px;
+    font-size: 10px;
+}
 }
 
 @media (max-width:500px) {
