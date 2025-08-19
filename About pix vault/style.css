@@ -38,7 +38,7 @@ a:hover{
 
 nav .links{
     margin-left: auto;
-    width: 300px;
+    width: 200px;
     padding-top: 15px;
 }
 
@@ -166,6 +166,14 @@ main .Our-mission .mission2{
 }
 
 @media (max-width:550px) {
+
+    nav .logo{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+
     nav .logo img{
         height: 20px;
     }
@@ -176,7 +184,7 @@ main .Our-mission .mission2{
     
     nav .links{
         margin-left: auto;
-        width: 300px;
+        width: 150px;
         padding-top: 15px;
     }
 }
