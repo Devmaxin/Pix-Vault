@@ -116,9 +116,9 @@ main{
 }
 
 main .text{
-    margin-top: 6em;
-    font-size: 2em;
-    line-height: 1.7em;
+    margin-top: 8em;
+    font-size: 20px;
+    /* line-height: 1; */
     font-family: tahoma;
 }
 
@@ -217,6 +217,12 @@ marquee{
         justify-content: center;
         gap: 10px;
     }
+
+    .container-sm-device span .button{
+        font-size: 10px;
+        margin-top: 10px;
+        margin-right: 3px;
+    }
     
     main{
         display: none;
@@ -231,20 +237,21 @@ marquee{
    }
 
    .mobile-main .pic img{
-    height: 350px;
+    height: 300px;
     margin-top: 30px;
    }
 
    .mobile-main .text{
     padding: 0;
     margin: 0;
-    font-size: 1em;
+    font-size: 10px;
     text-align: center;
     font-family: tahoma;
    }
 
    .mobile-main .text button{
     margin-top: 10px;
+    font-size: 10px;
    }
 
    .marquee{
